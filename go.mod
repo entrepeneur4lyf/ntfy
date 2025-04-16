@@ -1,8 +1,7 @@
 module heckel.io/ntfy/v2
 
 go 1.22
-
-toolchain go1.22.1
+toolchain go1.24.1
 
 require (
 	cloud.google.com/go/firestore v1.17.0 // indirect
@@ -16,10 +15,10 @@ require (
 	github.com/olebedev/when v1.0.0
 	github.com/stretchr/testify v1.9.0
 	github.com/urfave/cli/v2 v2.27.4
-	golang.org/x/crypto v0.27.0
+	golang.org/x/crypto v0.36.0
 	golang.org/x/oauth2 v0.23.0 // indirect
-	golang.org/x/sync v0.8.0
-	golang.org/x/term v0.24.0
+	golang.org/x/sync v0.12.0
+	golang.org/x/term v0.30.0
 	golang.org/x/time v0.6.0
 	google.golang.org/api v0.199.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -79,9 +78,9 @@ require (
 	go.opentelemetry.io/otel v1.30.0 // indirect
 	go.opentelemetry.io/otel/metric v1.30.0 // indirect
 	go.opentelemetry.io/otel/trace v1.30.0 // indirect
-	golang.org/x/net v0.29.0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
-	golang.org/x/text v0.18.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	google.golang.org/appengine/v2 v2.0.6 // indirect
 	google.golang.org/genproto v0.0.0-20240924160255-9d4c2d233b61 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240924160255-9d4c2d233b61 // indirect
